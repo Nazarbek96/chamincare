@@ -30,7 +30,7 @@ const Navbar = () => {
                     <nav className="navbar navbar-expand-md navbar-light">
                         <Link href="/">
                             <a onClick={toggleNavbar} className="navbar-brand">
-                                <img src="/images/logo.png" alt="logo" />
+                                <img src="/images/chamin_logo.png" alt="logo" />
                             </a>
                         </Link>
 
@@ -92,7 +92,7 @@ const Navbar = () => {
 
                                 <li className="nav-item">
                                     <Link href="/about" activeClassName="active">
-                                        <a onClick={toggleNavbar} className="nav-link">About</a>
+                                        <a onClick={toggleNavbar} className="nav-link">소개</a>
                                     </Link>
                                 </li>
    
@@ -169,7 +169,7 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link href="#">
                                         <a onClick={e => e.preventDefault()} className="nav-link dropdown-toggle">
-                                            Services
+                                        진료과목
                                         </a>
                                     </Link>
 
@@ -188,7 +188,7 @@ const Navbar = () => {
                                     </ul>
                                 </li>
 
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <Link href="#">
                                         <a onClick={e => e.preventDefault()} className="nav-link dropdown-toggle">
                                             Doctors
@@ -208,9 +208,9 @@ const Navbar = () => {
                                             </Link>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> */}
  
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <Link href="#">
                                         <a onClick={e => e.preventDefault()} className="nav-link dropdown-toggle">
                                             News
@@ -230,11 +230,11 @@ const Navbar = () => {
                                             </Link>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> */}
 
                                 <li className="nav-item">
                                     <Link href="/contact" activeClassName="active">
-                                        <a onClick={toggleNavbar} className="nav-link">Contact</a>
+                                        <a onClick={toggleNavbar} className="nav-link">병원안내</a>
                                     </Link>
                                 </li>
                             </ul>

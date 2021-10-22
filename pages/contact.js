@@ -14,10 +14,10 @@ const Contact = () => {
       {/* <TopHeader /> */}
       <Navbar />
       <PageBanner
-        pageTitle="Contact Us"
+        pageTitle="문의하기"
         homePageUrl="/"
-        homePageText="Home"
-        activePageText="Contact Us"
+        homePageText="홈"
+        activePageText="문의하기"
         bgImage="page-title-one"
       />
 

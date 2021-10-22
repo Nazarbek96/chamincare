@@ -21,7 +21,7 @@ const Index = () => {
             <Navbar />
             <MainBanner />
             <AboutOurHospital />
-            <OurExpertise />
+            {/* <OurExpertise /> */}
             <Services />
             {/* <AboutUs /> */}
             {/* <VideoIntro /> */}
@@ -30,7 +30,7 @@ const Index = () => {
                 <Stats />
             </div> */}
             {/* <FeedbackSlider /> */}
-            <LatestBlogPost />
+            {/* <LatestBlogPost /> */}
             {/* <NewsletterForm /> */}
             <Footer />
         </React.Fragment>

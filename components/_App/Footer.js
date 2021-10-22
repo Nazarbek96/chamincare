@@ -11,21 +11,21 @@ const Footer = () => {
                         <div className="col-sm-6 col-lg-6">
                             <div className="footer-item">
                                 <div className="footer-contact">
-                                    <h3>Contact Us</h3>
+                                    <h3>문의하기</h3>
                                     <ul>
-                                        <li>
+                                        {/* <li>
                                             <i className="icofont-ui-message"></i>
                                             <a href="mailto:info@disin.com">info@disin.com</a>
                                             <a href="mailto:hello@disin.com">hello@disin.com</a>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <i className="icofont-stock-mobile"></i>
-                                            <a href="tel:+07554332322">Call: +07 554 332 322</a>
-                                            <a href="tel:+236256256365">Call: +236 256 256 365</a>
+                                            <a href="tel:0312967799">전화: 031-296-7799</a>
+                                            <a href="fax:0312967795">FAX: 031-296-7795</a>
                                         </li>
                                         <li>
                                             <i className="icofont-location-pin"></i>
-                                            210-27 Quadra, Market Street, Victoria Canada
+                                            수원시 팔달구 일월로 22번길 7 <br /> (화서2동 724-2번지) 삼민빌딩 2층
                                         </li>
                                     </ul>
                                 </div>
@@ -35,36 +35,36 @@ const Footer = () => {
                         <div className="col-sm-6 col-lg-3">
                             <div className="footer-item">
                                 <div className="footer-quick">
-                                    <h3>Quick Links</h3>
+                                    <h3>빠른 링크</h3>
                                     <ul>
                                         <li>
                                             <Link href="/about">
-                                                <a>About us</a>
+                                                <a>우리에 대해</a>
                                             </Link>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <Link href="/about">
                                                 <a>Blog</a>
                                             </Link>
-                                        </li>
-                                        <li>
+                                        </li> */}
+                                        {/* <li>
                                             <Link href="/blog-details">
                                                 <a>Our Expertise</a>
                                             </Link>
-                                        </li>
-                                        <li>
+                                        </li> */}
+                                        {/* <li>
                                             <Link href="/faq">
                                                 <a>Faq</a>
                                             </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/doctor">
-                                                <a>Doctors</a>
+                                        </li> */}
+                                        {/* <li>
+                                            <Link href="/services">
+                                                <a>진료과목</a>
                                             </Link>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <Link href="/contact">
-                                                <a>Contact us</a>
+                                                <a>문의하기</a>
                                             </Link>
                                         </li>
                                     </ul>
@@ -75,7 +75,7 @@ const Footer = () => {
                         <div className="col-sm-6 col-lg-3">
                             <div className="footer-item">
                                 <div className="footer-quick">
-                                    <h3>Our Services</h3>
+                                    <h3>진료과목</h3>
                                     <ul>
                                         <li>
                                             <Link href="/service-details">

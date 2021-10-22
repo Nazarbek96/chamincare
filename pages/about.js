@@ -14,10 +14,10 @@ const About = () => {
       {/* <TopHeader /> */}
       <Navbar />
       <PageBanner
-        pageTitle="About"
+        pageTitle="소개"
         homePageUrl="/"
-        homePageText="Home"
-        activePageText="About"
+        homePageText="홈"
+        activePageText="소개"
         bgImage="page-title-one"
       />
 
@@ -35,12 +35,9 @@ const About = () => {
             <div className="col-lg-6">
               <div className="about-item about-right">
                 <img src="/images/about-shape1.png" alt="About" />
-                <h2>About Our Hospital</h2>
+                <h2>환자를 위한 병원, 차민내과</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.{" "}
+                  “환자분의 작은 소리까지도 귀 기울여 듣는 차민내과입니다.”{" "}
                 </p>
                 {/* <ul>
                                     <li>
@@ -57,30 +54,34 @@ const About = () => {
                                     </li>
                                 </ul> */}
                 <div className="row">
-                <div className="col-lg-2"></div>
+                  <div className="col-lg-2"></div>
                   <div className="col-lg-8">
                     <div className="appointment-item-two-right">
                       <div className="appointment-item-content">
-                        <h2>Working Hours</h2>
+                        <h2>작업 시간</h2>
                         <ul>
                           <li>
-                            Monday <span>9:00 AM - 8:00 PM</span>
+                            월요일 <span>9:00 AM - 7:00 PM</span>
                           </li>
                           <li>
-                            Tuesday <span>9:00 AM - 8:00 PM</span>
+                            화요일 <span>9:00 AM - 7:00 PM</span>
                           </li>
                           <li>
-                            Wednesday <span>9:00 AM - 8:00 PM</span>
+                            수요일 <span>9:00 AM - 7:00 PM</span>
                           </li>
                           <li>
-                            Thursday <span>9:00 AM - 8:00 PM</span>
+                            목요일 <span>9:00 AM - 7:00 PM</span>
                           </li>
                           <li>
-                            Friday <span>9:00 AM - 8:00 PM</span>
+                            금요일 <span>9:00 AM - 7:00 PM</span>
                           </li>
                           <li>
-                            Saturday <span>9:00 AM - 8:00 PM</span>
+                            토요일 <span>9:00 AM - 3:30 PM</span>
                           </li>
+                          <li>
+                            점심시간 <span>1:00 PM - 2:00 PM</span>
+                          </li>
+                          <li style={{fontWeight:"bold"}}>공휴일 휴진</li>
                         </ul>
                       </div>
                     </div>
@@ -92,7 +93,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="counter-area counter-bg counter-area-four">
+      {/* <div className="counter-area counter-bg counter-area-four">
         <div className="container">
           <div className="row">
             <div className="col-sm-6 col-lg-3">
@@ -127,9 +128,9 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <OurExpertise />
+      {/* <OurExpertise /> */}
 
       {/* <Services /> */}
 
