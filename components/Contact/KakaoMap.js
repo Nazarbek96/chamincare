@@ -25,7 +25,7 @@ const KakaoMap = () => {
     map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
 
     // Create an address-coordinate conversion object
-    var geocoder = new kakao.maps.services.Geocoder();
+    const geocoder = new kakao.maps.services.Geocoder();
 
     // Retrieve coordinates by address
     geocoder.addressSearch(
