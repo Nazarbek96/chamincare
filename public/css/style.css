@@ -3617,6 +3617,7 @@ footer {
 /*-- End Page Title --*/
 /*-- Location --*/
 .location-wrap .location-item {
+  min-height: 260px;
   margin-bottom: 30px;
   text-align: center;
   border: 1px solid #eee;

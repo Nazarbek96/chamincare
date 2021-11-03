@@ -167,13 +167,18 @@ const Navbar = () => {
                                 </li> */}
 
                                 <li className="nav-item">
-                                    <Link href="#">
+
+                                <Link href="/services" activeClassName="active">
+                                        <a onClick={toggleNavbar} className="nav-link">진료과목</a>
+                                    </Link>
+
+                                    {/* <Link href="#">
                                         <a onClick={e => e.preventDefault()} className="nav-link dropdown-toggle">
                                         진료과목
                                         </a>
-                                    </Link>
+                                    </Link> */}
 
-                                    <ul className="dropdown-menu">
+                                    {/* <ul className="dropdown-menu">
                                         <li className="nav-item">
                                             <Link href="/services" activeClassName="active">
                                                 <a onClick={toggleNavbar} className="nav-link">Services</a>
@@ -185,7 +190,7 @@ const Navbar = () => {
                                                 <a onClick={toggleNavbar} className="nav-link">Service Details</a>
                                             </Link>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
 
                                 {/* <li className="nav-item">

@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
     return(
         <>
             <Head>
-                <title>Disin - React Next Medical & Doctors Template</title>
+                <title>Chamincare</title>
                 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=eb2169a44e3f07a93e88112db1affb0f"></script>
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 <meta name="description" content="Disin - React Next Medical & Doctors Template" />
